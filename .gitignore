@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Базы данных и большие файлы
+*.db
+*.db-shm
+*.db-wal
+*.db-backup*
+*.sqlite
+*.sqlite3
+
+# JSON данные (если большие)
+*.json
+!requirements.json  # если нужны маленькие JSON-файлы
+
+# Кэши
+.mypy_cache
+.pytest_cache
+.ruff_cache
+.coverage
+htmlcov/
+
+# Логи
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.iml
+.DS_Store
+
+# Ваши специфичные файлы
+bkrs_full.json
+complete.json
+dictionary.txt
+graphics.txt
+scripts/mmah/  # если не хотите выкладывать mmah папку
+
+# Скрытые файлы
+*.shm
+*.wal

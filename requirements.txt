@@ -1,0 +1,13 @@
+# Web framework
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+
+# ORM и БД
+SQLAlchemy==2.0.36
+
+# Валидация и настройки
+pydantic==2.9.2
+pydantic-settings==2.6.0
+
+# Утилиты (используются в parser/)
+tqdm==4.67.0
